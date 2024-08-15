@@ -28,16 +28,16 @@ const RecentProjects = () => {
                   >
                     <img src="/bg.png" alt="bgimg" />
                   </div>
-                  <Image
-                    src={NN}
-                    alt="cover"
-                    className="z-10 absolute bottom-0"
-                  />
-                  {/* <img
+                  {/* <Image
                     src={NN}
                     alt="cover"
                     className="z-10 absolute bottom-0"
                   /> */}
+                  <img
+                    src={item.img}
+                    alt="cover"
+                    className="z-10 absolute bottom-0"
+                  />
                 </div>
 
                 <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
