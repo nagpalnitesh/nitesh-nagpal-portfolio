@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/laptop2.jpg",
     spareImg: "",
   },
   {
@@ -75,7 +75,7 @@ export const projects = [
     title: "3D Solar System Planets to Explore",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/nnphotography.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/re.svg", "/ts.svg"],
     link: "https://nnphotography.in",
   },
   {
@@ -107,32 +107,26 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+      "It is with great enthusiasm that I write in support of Nitesh Nagpal, who has demonstrated exceptional dedication since joining our campus. He possesses strong aspirations and remarkable technical expertise. Additionally, Nitesh is academically talented and driven. Beyond his technical abilities, he is a collaborative, dependable, and proactive individual who consistently fulfills his commitments.",
+    name: "Dr. Diksha Chawla",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+      "Nitesh is a jack of all trades, adept at various aspects of computer science, and his passion for embracing cutting-edge technologies is truly inspiring. Nitesh's ability to quickly adapt to new concepts and technologies, coupled with his creativity, makes him an invaluable asset to any team. His enthusiasm for staying abreast of the latest advancements in computer science is contagious and has a positive impact on those around him. In addition to his technical prowess, Nitesh brings a strong work ethic, excellent teamwork skills, and a positive attitude to the table. He consistently exceeds expectations and is always willing to support his colleagues.",
+    name: "Keshav Soni",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+      "Nitesh Nagpal is a dedicated and enthusiastic individual with great efficiency in the field of Software Development. Along with his undeniable talent, Nitesh has always been an absolute joy to work with. He is a true team player, and always fosters positive discussions and brings the best out of other employees. He is competent and organised, and his positive attitude and sense of humour made him popular among his colleagues. I believe that Nitesh has a tremendous amount of potential. As a dedicated and knowledgeable employee and an all-around great person, I know that he will be a beneficial addition to any organization he goes in.",
+    name: "Aditi Tripathi",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+      "I've met many individuals in my life, but no one has inspired me as much as Nitesh. I had the pleasure of spending four years with Nitesh as his friend at PDM College Of Engineering, Bahadurgarh. His zeal for technology was something I was always in awe of. I'm genuinely impressed by his ability to learn cutting-edge technology in zero time. As Nitesh is a full stack developer, his skill set is wide and therefore, valuable for any company. Well versed in Home Automation, Web Development, ERP, and Learning Management Systems, he handles his responsibilities professionally. Alongside this, Nitesh is a helpful, team-minded, and caring human being, who tries his best to inspire and motivate just about any individual. Nitesh is an asset for any company and earns my highest recommendation.",
+    name: "Konark Baggal",
     title: "Director of AlphaStream Technologies",
   },
 ];
@@ -205,13 +199,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/nagpalnitesh",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/nagpalnitesh",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/nagpalnitesh/",
   },
 ];
