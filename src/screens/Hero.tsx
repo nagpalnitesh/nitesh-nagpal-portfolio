@@ -28,7 +28,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="pb-20 pt-36">
+      <div className="pb-20 pt-36 overflow-hidden">
         {/* <FloatingNav navItems={navItems} /> */}
         <div>
           <Spotlight
@@ -54,7 +54,7 @@ const Hero = () => {
             </h2>
             <TextGenerateEffect
               className="text-center text-[40px] md:text-5xl lg:text-6xl"
-              words={"Explore. Create. Inspire"}
+              words={"Explore. Create. Inspire."}
             />
             <p className="text-center md:tracking-wider text-sm md:text-lg lg:text-2xl mb-4">
               Hi, I&apos;m Nitesh Nagpal, a full-stack developer passionate
