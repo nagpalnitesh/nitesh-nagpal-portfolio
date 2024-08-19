@@ -1,6 +1,5 @@
 import MagicButton from "@/components/ui/MagicButton";
 import { socialMedia } from "@/data";
-import React from "react";
 import { FaLocationArrow } from "react-icons/fa6";
 
 const Footer = () => {
@@ -17,10 +16,7 @@ const Footer = () => {
         </div> */}
         <div className="flex flex-col items-center">
           <h1 className="heading lg:max-w-[45vw]">
-            Ready to take{" "}
-            <span className="text-purple">
-              your outside digital presence to the next level?
-            </span>
+            Let&apos;s Stay <span className="text-purple">Connected</span>
           </h1>
           <p className="text-center text-white-200 md:my-10 my-5">
             Reach out to me today and let&apos;s discuss how I can help you
