@@ -2,7 +2,6 @@
 import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
 import { AnimatePresence, motion } from "framer-motion";
 import React from "react";
-import { div } from "three/webgpu";
 
 const Approach = () => {
   return (
@@ -12,11 +11,9 @@ const Approach = () => {
       </h1>
       <div className="py-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card
-          title="Planning and Strategy"
+          title="Discovery & Understanding"
           icon={<AceternityIcon order={"Phase 1"} />}
-          description="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          description="I start by thoroughly understanding your goals and requirements, ensuring that every detail aligns with your vision. This foundation sets the stage for a successful project."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -24,11 +21,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Design & Development"
           icon={<AceternityIcon order={"Phase 2"} />}
-          description="Once we agree on the plan, I cue my lofi playlist and dive into
-              coding. From initial sketches to polished code, I keep you updated
-              every step of the way."
+          description="In this phase, I blend creativity with technical expertise to design and develop intuitive, scalable solutions. Every element is crafted with precision to meet user needs and achieve your objectives."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -45,11 +40,9 @@ const Approach = () => {
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
         <Card
-          title="Development & Launch"
+          title="Testing & Delivery"
           icon={<AceternityIcon order={"Phase 3"} />}
-          description="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          description="Before launch, I rigorously test the solution to ensure it performs flawlessly. With everything optimized and polished, I deliver a product that not only meets but exceeds expectations."
         >
           <CanvasRevealEffect
             animationSpeed={3}
