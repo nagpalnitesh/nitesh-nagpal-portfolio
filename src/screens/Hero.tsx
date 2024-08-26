@@ -1,8 +1,6 @@
-import { FloatingNav } from "@/components/ui/floating-navbar";
 import MagicButton from "@/components/ui/MagicButton";
 import { Spotlight } from "@/components/ui/Spotlight";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
-import { navItems } from "@/data";
 import { FaLocationArrow } from "react-icons/fa";
 
 const Hero = () => {
@@ -27,7 +25,7 @@ const Hero = () => {
   // ];
 
   return (
-    <>
+    <section id="home">
       <div className="pb-20 pt-36 overflow-hidden">
         {/* <FloatingNav navItems={navItems} /> */}
         <div>
@@ -73,7 +71,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 
