@@ -7,9 +7,10 @@ import { IoCopyOutline } from "react-icons/io5";
 import { cn } from "@/lib/utils";
 
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
-// import animationData from "@/data/confetti.json";
+import animationData from "@/data/confetti.json";
 import MagicButton from "@/components/ui/MagicButton";
 import GridGlobe from "../GridGlobe";
+import Lottie from "react-lottie";
 
 export const BentoGrid = ({
   className,
@@ -59,7 +60,7 @@ export const BentoGridItem = ({
   const defaultOptions = {
     loop: copied,
     autoplay: copied,
-    // animationData: animationData,
+    animationData: animationData,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
@@ -181,7 +182,7 @@ export const BentoGridItem = ({
               >
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
 
-                {/* <Lottie options={defaultOptions} height={200} width={400} /> */}
+                <Lottie options={defaultOptions} height={200} width={400} />
               </div>
 
               <MagicButton
