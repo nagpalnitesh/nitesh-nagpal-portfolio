@@ -3,6 +3,7 @@ import { socialMedia } from "@/data";
 import { FaLocationArrow } from "react-icons/fa6";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <>
       <footer className="w-full pt-20 pb-10" id="contact">
@@ -32,7 +33,7 @@ const Footer = () => {
         </div>
         <div className="flex md:flex-row flex-col mt-16 justify-between items-center">
           <p className="md:text-base text-sm md:font-normal font-light">
-            Copyright © 2024{" "}
+            Copyright © {currentYear}{" "}
             <a href="#home">
               <span className="text-purple">Nitesh Nagpal</span>
             </a>
