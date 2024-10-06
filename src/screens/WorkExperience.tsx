@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/moving-border";
 import { workExperience } from "@/data";
-import React from "react";
 
 const WorkExperience = () => {
   return (
@@ -24,9 +23,12 @@ const WorkExperience = () => {
                   className="lg:w-32 md:w-20 w-16"
                 />
                 <div className="lg:ms-5">
-                  <h1 className="text-start text-xl md:text-2xl font-bold">
+                  <h1 className="text-start text-xl md:text-2xl font-extrabold">
                     {card.title}
                   </h1>
+                  {/* <p className="mt-3 font-bold text-start uppercase">
+                    {card.company}
+                  </p> */}
                   <p className="text-white-100 mt-3 font-semibold text-start">
                     {card.desc}
                   </p>

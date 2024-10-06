@@ -147,28 +147,32 @@ export const workExperience = [
   {
     id: 1,
     title: "Software Engineer",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    company: "RSG Media",
+    desc: "I contributed to the development of RightsLogic. I utilized technologies such as React JS, Node.js, and Express JS while collaborating with agile teams to enhance user experiences.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Full-Stack Developer",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    company: "Pixxmo",
+    desc: "Built scalable web applications, focusing on ecommerce solutions, and provided technical consulting to clients for efficient project delivery.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Freelance Website Developer",
-    desc: "Led the dev of a web app for a client, from initial concept to deployment.",
+    company: "",
+    desc: "Creating customized solutions for clients, focusing on building dynamic websites and providing technical consulting to meet client-specific requirements.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
     title: "Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    company: "Social (Formerly Script Foundation)",
+    desc: "Developed web applications and the company website using React JS, Node.js, and MongoDB, collaborating with teams to meet business goals.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
