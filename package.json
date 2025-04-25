@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@react-three/drei": "^9.109.5",
+    "@react-three/drei": "^9.122.0",
     "@react-three/fiber": "^9.0.0-alpha.8",
     "@tabler/icons-react": "^3.12.0",
     "@vercel/analytics": "^1.3.1",
@@ -25,7 +25,7 @@
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7",
     "three": "^0.176.0",
-    "three-globe": "^2.31.1"
+    "three-globe": "^2.42.4"
   },
   "devDependencies": {
     "@types/node": "^20",
