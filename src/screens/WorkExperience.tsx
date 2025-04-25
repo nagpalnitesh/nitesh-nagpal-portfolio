@@ -26,9 +26,9 @@ const WorkExperience = () => {
                   <h1 className="text-start text-xl md:text-2xl font-extrabold">
                     {card.title}
                   </h1>
-                  {/* <p className="mt-3 font-bold text-start uppercase">
+                  <p className="mt-3 font-semibold text-start text-base text-purple uppercase">
                     {card.company}
-                  </p> */}
+                  </p>
                   <p className="text-white-100 mt-3 font-semibold text-start">
                     {card.desc}
                   </p>

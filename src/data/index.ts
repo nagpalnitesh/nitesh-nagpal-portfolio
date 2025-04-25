@@ -147,7 +147,7 @@ export const workExperience = [
   {
     id: 1,
     title: "Software Engineer",
-    company: "RSG Media",
+    company: "RSG Media Systems Pvt. Ltd.",
     desc: "I contributed to the development of RightsLogic. I utilized technologies such as React JS, Node.js, and Express JS while collaborating with agile teams to enhance user experiences.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
@@ -155,7 +155,7 @@ export const workExperience = [
   {
     id: 2,
     title: "Full-Stack Developer",
-    company: "Pixxmo",
+    company: "Pixxmo Online Services Private Limited",
     desc: "Built scalable web applications, focusing on ecommerce solutions, and provided technical consulting to clients for efficient project delivery.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
