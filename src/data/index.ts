@@ -108,6 +108,12 @@ export const testimonials = [
     name: "Konark Baggal",
     title: "Director of AlphaStream Technologies",
   },
+  {
+    quote:
+      "Working with Nitesh on a cross-team project gave me a clear view of what a truly dependable engineer looks like. Nitesh took full ownership of responsibilities from day one — meeting deadlines, solving blockers independently, and never leaving a problem half-solved. Beyond the technical contribution, Nitesh's passion for the work was visible in every interaction. I'd recommend Nitesh without hesitation to any team looking for someone who combines strong problem-solving with a genuine sense of accountability.",
+    name: "Niteesh Pal",
+    title: "Director of AlphaStream Technologies",
+  },
 ];
 
 export const companies = [
