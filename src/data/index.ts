@@ -193,7 +193,7 @@ export const socialMedia = [
   {
     id: 2,
     img: "/twit.svg",
-    link: "https://x.com/nagpalnitesh",
+    link: "https://x.com/_niteshnagpal_",
   },
   {
     id: 3,
